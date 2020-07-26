@@ -1,0 +1,89 @@
+// ================================================================================================== 
+
+Generating multi-grid problem : maximum coarse depth m_c = 33
+fine matrix m =    65   n =     3289  nnz =     16113
+
+Smoothing method : Gauss-Seidel || Iteration / smoothing : 4 || Direct stability check ON || Relaxation  ON - tau = 1.000000 ||
+
+// ================================================================================================== 
+|||  Residual norm : 1.066055e+00  ||   Convergence rate : 0.000000  ||   at iteration : 1 ||
+|||  Residual norm : 1.964073e-01  ||   Convergence rate : 0.184238  ||   at iteration : 2 ||
+|||  Residual norm : 5.632177e-02  ||   Convergence rate : 0.286760  ||   at iteration : 3 ||
+|||  Residual norm : 1.832094e-02  ||   Convergence rate : 0.325291  ||   at iteration : 4 ||
+|||  Residual norm : 6.360567e-03  ||   Convergence rate : 0.347175  ||   at iteration : 5 ||
+|||  Residual norm : 2.309117e-03  ||   Convergence rate : 0.363036  ||   at iteration : 6 ||
+|||  Residual norm : 8.666095e-04  ||   Convergence rate : 0.375299  ||   at iteration : 7 ||
+|||  Residual norm : 3.332118e-04  ||   Convergence rate : 0.384501  ||   at iteration : 8 ||
+|||  Residual norm : 1.302939e-04  ||   Convergence rate : 0.391024  ||   at iteration : 9 ||
+|||  Residual norm : 5.151803e-05  ||   Convergence rate : 0.395399  ||   at iteration : 10 ||
+|||  Residual norm : 2.051430e-05  ||   Convergence rate : 0.398196  ||   at iteration : 11 ||
+|||  Residual norm : 8.203967e-06  ||   Convergence rate : 0.399915  ||   at iteration : 12 ||
+|||  Residual norm : 3.289192e-06  ||   Convergence rate : 0.400927  ||   at iteration : 13 ||
+|||  Residual norm : 1.320582e-06  ||   Convergence rate : 0.401491  ||   at iteration : 14 ||
+|||  Residual norm : 5.305768e-07  ||   Convergence rate : 0.401775  ||   at iteration : 15 ||
+|||  Residual norm : 2.132310e-07  ||   Convergence rate : 0.401885  ||   at iteration : 16 ||
+|||  Residual norm : 8.569497e-08  ||   Convergence rate : 0.401888  ||   at iteration : 17 ||
+
+// ================================================================================================== 
+
+Minimum tol reached a it : 17
+Resolution Time multi grid method (CPU):   0.3 sec
+Final residual norm : 8.569497e-08
+Final convergence rate at stop : 0.401888
+Asymptotic rate rho = 0.363036 , optimal results for tau = 2/(lambda_max - lambda_min) ~= (2/(2 - rho)) = 1.221774
+If chosen, the new relaxation coefficient should give a theoritical rho = 0.221774
+
+Convergence quality analysis :
+     --->   Direct stability criterion : eps = ||r||/||b|| < O(u)*||A||_2*||u||/||b|| ?
+     --->   Relative error : eps_err = 8.792118e-09 || convergence number : eps = 4.434477e-10
+     --->   eps = 4.434477e-10 < u = 1.1e-6 ? 
+
+ ----- The stability criterion is FULFILLED -----
+
+// ================================================================================================== 
+
+
+
+
+
+// ==================================================================================================                                                                                                             
+                                                                                                                                                                                                                  
+Generating multi-grid problem : maximum coarse depth m_c = 33                                                                                                                                                     
+fine matrix m =    65   n =     3289  nnz =     16113                                                                                                                                                             
+                                                                                                                                                                                                                  
+Smoothing method : Gauss-Seidel || Iteration / smoothing : 4 || Direct stability check ON || Relaxation  ON - tau = 1.221774 ||                                                                                   
+                                                                                                                                                                                                                  
+// ==================================================================================================                                                                                                             
+|||  Residual norm : 1.066055e+00  ||   Convergence rate : 0.000000  ||   at iteration : 1 ||                                                                                                                     
+|||  Residual norm : 1.542471e-01  ||   Convergence rate : 0.144690  ||   at iteration : 2 ||                                                                                                                     
+|||  Residual norm : 2.824778e-02  ||   Convergence rate : 0.183133  ||   at iteration : 3 ||                                                                                                                     
+|||  Residual norm : 5.924517e-03  ||   Convergence rate : 0.209734  ||   at iteration : 4 ||                                                                                                                     
+|||  Residual norm : 1.323038e-03  ||   Convergence rate : 0.223316  ||   at iteration : 5 ||                                                                                                                     
+|||  Residual norm : 3.191593e-04  ||   Convergence rate : 0.241232  ||   at iteration : 6 ||                                                                                                                     
+|||  Residual norm : 7.962207e-05  ||   Convergence rate : 0.249474  ||   at iteration : 7 ||                                                                                                                     
+|||  Residual norm : 2.057722e-05  ||   Convergence rate : 0.258436  ||   at iteration : 8 ||                                                                                                                     
+|||  Residual norm : 5.383768e-06  ||   Convergence rate : 0.261637  ||   at iteration : 9 ||                                                                                                                     
+|||  Residual norm : 1.427101e-06  ||   Convergence rate : 0.265075  ||   at iteration : 10 ||                                                                                                                    
+|||  Residual norm : 3.795555e-07  ||   Convergence rate : 0.265963  ||   at iteration : 11 ||                                                                                                                    
+|||  Residual norm : 1.013642e-07  ||   Convergence rate : 0.267060  ||   at iteration : 12 ||
+|||  Residual norm : 2.707582e-08  ||   Convergence rate : 0.267114  ||   at iteration : 13 ||
+
+// ================================================================================================== 
+
+Minimum tol reached a it : 13
+Resolution Time multi grid method (CPU):   0.2 sec
+Final residual norm : 2.707582e-08
+Final convergence rate at stop : 0.267114
+Asymptotic rate rho = 0.249474 , optimal results for tau = 2/(lambda_max - lambda_min) ~= (2/(2 - rho)) = 1.142514
+If chosen, the new relaxation coefficient should give a theoritical rho = 0.142514
+
+Convergence quality analysis :
+     --->   Direct stability criterion : eps = ||r||/||b|| < O(u)*||A||_2*||u||/||b|| ?
+     --->   Relative error : eps_err = 2.777921e-09 || convergence number : eps = 1.401099e-10
+     --->   eps = 1.401099e-10 < u = 1.1e-6 ? 
+
+ ----- The stability criterion is FULFILLED -----
+
+// ================================================================================================== 
+
+

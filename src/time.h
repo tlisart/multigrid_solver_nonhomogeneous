@@ -1,0 +1,2 @@
+/* prototype */
+double mytimer(void);

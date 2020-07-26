@@ -1,0 +1,6 @@
+set view 50,55
+set ticslevel 0
+set terminal wxt size 800,600
+set title 'Graph of the first eigenvector m = 513' 
+set size ratio -1 
+splot 'data.txt' using 1:2:3 with pm3d

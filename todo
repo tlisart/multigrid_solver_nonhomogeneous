@@ -1,0 +1,65 @@
+
+-------------------------------FINI---------------------------------------------
+
+ -- [x] Nettoyage général, partir de zéro questions par questions
+    - [x] Debug Valgrind from zero
+ -- [x] Correction Gauss-seidel/précond, problème d'init vecteurs
+
+ -- [x] Two-grid method (problème particulier)
+    - [x] Gauss-seidel propre
+    - [x] Séparation réduction
+    - [x] Séparation Prolongation
+        -[x] Correction prolongation (itération sur la matric coarce)
+    - [x] Debug
+
+--------------------------------------------------------------------------------
+
+-- [x] Multi-grid method :
+  - [x] Implémentation de la méthode, récrusion
+        - [x] Problème supp transfert (décalage ind? Accumulation erreurs multi)
+          -[x] Visuels réduction
+          -[x] Visuels prolongation
+        - [x] Correction ind_matching
+        - [] Mauvaise convergence ? Introduction d'erreurs due au méthodes géométriques ?
+
+  - [x] opti mémoire et fuite
+      - [x] Valgrind
+      - [x] GDB
+      - [x] Réduction d'appels de fonction
+  - [x] fuites umfpack?
+    - [x] Travailler en isolation valgrind (N'aime pas UMFPACK)
+
+    - [x] Problème résidu/norme résiduelle en dehors de multigrid ?
+    - [x] Convergence rate réecriture
+    - [x] Stabcrit et vérifications
+
+--------------------------------------------------------------------------------
+
+-- [x] Question 4 : Analyse
+  - [x] Liste résultats
+  - [x] \rho (theorique et en pratique)
+  - [x] Relaxation/acc
+  - [x] Reecrire critère de stabilité (OK)
+
+-- [x] Quesiton 5 :
+  - [x] Paramètres primme
+  - [x] UMFPACK comme précond
+  - [x] Utiliser le mutligrid comme préconditionner
+  - [x] Analyse
+
+--------------------------------------------------------------------------------
+-- [] Readme
+-- [x] Documentation
+  - [x] functools.c
+  - [x] multiGridMethod.c / reduction_mat.c/ prolongation_mat.c
+  - [x] main.c
+  - [x] smoothing.c
+
+-- [~] Console lisible (ERROR PRIMME?)
+-- [x] Rapport complet
+  -[x] Q1
+  - [x] Dense/GS
+  - [x] Twogrid
+    - [x] Démo réRéduction
+    - [x] Démo élongation
+  - [~] Multigrid
